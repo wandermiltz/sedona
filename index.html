@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Седона</title>
+		<link href="http://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=latin,cyrillic-ext" rel="stylesheet" type="text/css">
+		<link rel="stylesheet" href="css/normalize.css">
+		<link href="css/style-min.css" rel="stylesheet">
+	</head>
+	<body>
+		<div class="container clearfix">
+			<header class="main-header">
+				<nav class="main-navigation">
+					<ul>
+						<li class="active">
+							<a href="index.html">Информация</a>
+						</li>
+						<li>
+							<a href="#">Фото и видео</a>
+						</li>
+						<li class="logo">
+							<span><img src="img/images/logo.png" width="138" height="70" alt="City of Sedona"></span>
+						</li>
+						<li>
+							<a href="#">Карта штата</a>
+						</li>
+						<li>
+							<a href="sedona-hotels.html">Гостиницы</a>
+						</li>
+					</ul>
+				</nav>
+				<div class="welcome">
+					<img src="img/images/welcomesedona.png" width="458" height="352" alt="Welcome to the gorgeous Sedona. Because the Grand Canyon sucks!">
+				</div>
+			</header>
+			<main>
+				<section class="reasons-features-advantages">
+					<div class="section-header">
+						<h1 class="main-caption">Cедона — небольшой городок в аризоне, заслуживающий большего!</h1>
+						<p>Рассмотрим 5 причин, по которым Седона круче, чем Гранд Каньон!</p>
+					</div>
+					
+					<div class="reasons-and-photo clearfix">
+						<div class="reasons to-left">
+							<h3 class="reasons-caption">Настоящий городок</h3>
+							<p class="number"> — №1 — </p>
+							<p>Седона — не аттракцион для туристов, там течет своя жизнь</p>
+						</div>
+						<div class="photo to-right"><img src="img/images/photo-city.jpg" width="800" height="400" alt="город Седона"></div>
+					</div>
+					
+					<div class="features-row clearfix">
+						<div class="features-box to-left">
+							<div class="features-img"><img src="img/pict/pic-house.png" width="75" height="72" alt="motel"></div>
+							<h3 class="features-caption">Жилье</h3>
+							<p>Рекомендуем пожить в настоящем мотеле. Все как в кино!</p>
+						</div>
+						<div class="features-box to-left">
+							<div class="features-img"><img src="img/pict/pic-burger.png" width="74" height="70" alt="burger"></div>
+							<h3 class="features-caption">Еда</h3>
+							<p>Всегда заказывайте фирменный бургер. Вы не разочаруетесь!</p>
+						</div>
+						<div class="features-box to-left">
+							<div class="features-img"><img src="img/pict/pic-gift.png" width="64" height="76" alt="gift"></div>
+							<h3 class="features-caption">Сувениры</h3>
+							<p>Не только китайского,<br>
+							 но и местного производства!</p>
+						</div>
+					</div>
+
+					<div class="reasons-and-photo clearfix">
+						<div class="photo to-left"><img src="img/images/photo-mountain.jpg" width="800" height="400" alt="мост дьявола"></div>
+						<div class="reasons to-right">
+							<h3 class="reasons-caption">Там есть<br> мост дьявола</h3>
+							<p class="number"> — №2 — </p>
+							<p>Да, но по нему можно пройти!<br> 
+							Если, конечно, вы осмелитесь</p>
+						</div>
+					</div>
+					
+
+					<div class="advantages-row clearfix">
+						<div class="advantages to-left">
+							<h3 class="advantages-caption">Небольшая площадь</h3>
+							<p class="number"> — №3 — </p>
+							<p>Все достопримечательности<br>
+							находятся очень близко</p>
+						</div>
+						<div class="advantages to-left">
+							<h3 class="advantages-caption">Красивая дорога</h3>
+							<p class="number"> — №4 — </p>
+							<p>Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
+						</div>
+						<div class="advantages to-left">
+							<h3 class="advantages-caption">Мало туристов</h3>
+							<p class="number"> — №5 — </p>
+							<p>Большинство едет в Гранд Каньон и толпится там</p>
+						</div>
+					</div>
+				</section>
+
+				<section class="hotel-search">
+					<header class="search-header">
+						<h2 class="search-caption">Заинтересовались?</h2>
+						<p>Укажите предполагаемые даты поездки,<br>
+							и мы покажем вам лучшие предложения гостиниц в Седоне</p>
+					</header>
+					
+
+					<div class="hotel-search-box">
+						<form action="form-search.html" method="post">
+							<a href="form-search.html" class="hotel-search-btn"> Поиск гостиницы в Седоне </a>
+							<div class="search-form">
+								<div class="popup-form">
+									<div class="form-layout-row clearfix">
+										<label for="date-in" class="to-left" >Дата заезда:</label>
+										<input id="date-in" class="date-in to-right" type="text" name="datein" placeholder="24 апреля 2014" required>
+									</div>
+									<div class="form-layout-row clearfix">
+										<label for="date-out" class="to-left">Дата выезда:</label>
+										<input id="date-out" class="date-out to-right" type="text" name="dateout" placeholder="4 июля 2014" required>
+									</div>
+									<div class="form-layout-row clearfix">
+										<div class="form-layout-row-half to-left clearfix">
+											<label for="count-adults" class="to-left">Взрослые:</label>
+											<div class="form-layout-row-half-btns to-right">
+												<button class="btn-plus-minus" value="-">−</button>
+												<input id="count-adults" type="text" placeholder="2">
+												<button class="btn-plus-minus" value="+">+</button>
+											</div>
+										</div>
+										<div class="form-layout-row-half to-right clearfix">
+											<label for="count-children" class="count-children to-left">Дети:</label>
+											<div class="form-layout-row-half-btns to-right">
+												<button class="btn-plus-minus" value="-">−</button>
+												<input id="count-children" type="text" placeholder="0">
+												<button class="btn-plus-minus" value="+">+</button>
+											</div>
+										</div>
+										<button type="submit" class="btn-search blue-btn" name="search" value="search">Найти</button>
+									</div>
+								</div>
+							</div>
+						</form> 
+					</div>
+				</section>
+			</main>
+			
+			<div class="map">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52385.17731020665!2d-111.79513845!3d34.8543784!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872da132f942b00d%3A0x5548c523fa6c8efd!2z0KHQtdC00L7QvdCwLCDQkNGA0LjQt9C-0L3QsCwg0KHQqNCQ!5e0!3m2!1sru!2sru!4v1429627977648" width="1200" height="588"></iframe>
+			</div>
+
+			<footer class="footer-index">
+				<div class="footer-box tag">
+					<a href="#">#VISITSEDONA</a>
+				</div>
+				<div class="footer-box social">
+					<a href="#"><i class="icon-twitter"></i></a>
+					<a href="#"><i class="icon-facebook"></i></a>
+					<a href="#"><i class="icon-youtube"></i></a>
+				</div>
+				<div class="footer-box">
+					<div class="copyright">
+						<span>Website by</span>
+						<a href="#" class="logo-footer"></a>
+					</div>
+				</div>
+			</footer>
+		</div>
+
+		<script src="script/script-min.js"></script>
+
+	</body>
+</html>
