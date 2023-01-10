@@ -1,45 +1,49 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<title>Седона</title>
-		<link href="http://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=latin,cyrillic-ext" rel="stylesheet" type="text/css">
-		<link rel="stylesheet" href="css/normalize.css">
-		<link href="css/style-min.css" rel="stylesheet">
-	</head>
-	<body>
-		<div class="hotel-search-box form-box">
-			<div class="search-form visible">
-				<form method="post" action="#">
-					<div class="form-layout-row clearfix">
-						<label for="date-in" class="to-left" >Дата заезда:</label>
-						<input id="date-in" class="date-in to-right" type="text" name="datein" placeholder="24 апреля 2014" required>
-					</div>
-					<div class="form-layout-row clearfix">
-						<label for="date-out" class="to-left">Дата выезда:</label>
-						<input id="date-out" class="date-out to-right" type="text" name="dateout" placeholder="4 июля 2014" required>
-					</div>
-					<div class="form-layout-row clearfix">
-						<div class="form-layout-row-half to-left clearfix">
+
+<head>
+	<meta charset="utf-8">
+	<title>Седона</title>
+	<link href="http://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=latin,cyrillic-ext" rel="stylesheet"
+		type="text/css">
+	<link href="css/normalize.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+	<div class="hotel-search-box form-box">
+		<div class="search-form visible">
+			<form method="post" action="#">
+				<div class="form-layout-row clearfix">
+					<label for="date-in" class="to-left">Дата заезда:</label>
+					<input id="date-in" class="date-in to-right" type="text" name="datein" placeholder="24 апреля 2014" required>
+				</div>
+				<div class="form-layout-row clearfix">
+					<label for="date-out" class="to-left">Дата выезда:</label>
+					<input id="date-out" class="date-out to-right" type="text" name="dateout" placeholder="4 июля 2014" required>
+				</div>
+				<div class="form-layout-row clearfix">
+					<div class="form-layout-row-half to-left clearfix">
 						<label for="count-adults" class="to-left">Взрослые:</label>
-							<div class="form-layout-row-half-btns to-right">
-								<button class="btn-plus-minus" value="-">−</button>
-								<input id="count-adults" type="text" placeholder="2">
-								<button class="btn-plus-minus" value="+">+</button>
-							</div>
+						<div class="form-layout-row-half-btns to-right">
+							<button class="btn-plus-minus" value="-">−</button>
+							<input id="count-adults" type="text" placeholder="2">
+							<button class="btn-plus-minus" value="+">+</button>
 						</div>
-						<div class="form-layout-row-half to-right clearfix">
-							<label for="count-children" class="count-children to-left">Дети:</label>
-							<div class="form-layout-row-half-btns to-right">
-								<button class="btn-plus-minus" value="-">−</button>
-								<input id="count-children" type="text" placeholder="0">
-								<button class="btn-plus-minus" value="+">+</button>
-							</div>
-						</div>
-						<button type="submit" class="btn-search blue-btn" name="search" value="search">Найти</button>
 					</div>
-				</form> 
-			</div>
-		</div>			
-	</body>
+					<div class="form-layout-row-half to-right clearfix">
+						<label for="count-children" class="count-children to-left">Дети:</label>
+						<div class="form-layout-row-half-btns to-right">
+							<button class="btn-plus-minus" value="-">−</button>
+							<input id="count-children" type="text" placeholder="0">
+							<button class="btn-plus-minus" value="+">+</button>
+						</div>
+					</div>
+					<button type="submit" class="btn-search blue-btn" name="search" value="search">Найти</button>
+				</div>
+			</form>
+		</div>
+	</div>
+</body>
+
 </html>
